@@ -1,65 +1,73 @@
-# 📊 Data Portfolio
+# 📊 Data Analytics Portfolio
 
-Welcome to my data analytics portfolio! This repository features a collection of data analysis and visualization projects using **Python (Jupyter Notebooks)** and **Power BI**.
-
----
-
-## 📁 Folder Structure
-
-- `notebooks/` – Python Jupyter notebooks for data exploration, analysis, and forecasting.
-- `powerbi_reports/` – Power BI dashboards that offer rich, interactive visual insights.
+Welcome to my data analytics portfolio! This repository showcases my work across various tools and technologies, including **Power BI**, **Tableau**, and **Python** for data science and business intelligence applications.
 
 ---
 
-## 🧪 Notebooks
+## 🧠 Notebooks (`/notebooks`)
 
-### 1. **Customer Segmentation**
-- Technique: Clustering (e.g., K-Means)
-- Description: Segments customers based on purchasing behavior and demographics.
+### 1. `Customer_Segmentation.ipynb`
+- **Objective**: Cluster customers based on behavior and demographics using unsupervised learning (KMeans).
+- **Tech Stack**: Python, pandas, matplotlib, scikit-learn
+- **Outcome**: Identified key customer groups for targeted marketing strategies.
 
-### 2. **Sales Analysis**
-- Technique: Data cleaning, visualization
-- Description: Exploratory analysis of sales trends over time.
+### 2. `Sales_Analysis.ipynb`
+- **Objective**: Analyze and visualize sales trends, product performance, and revenue growth.
+- **Tech Stack**: Python, seaborn, pandas, Plotly
+- **Outcome**: Delivered actionable insights to improve sales strategy and inventory planning.
 
-### 3. **Time Series Forecasting Project**
-- Technique: Time Series (e.g., ARIMA, Prophet)
-- Description: Forecasts future trends using historical sales data.
-
----
-
-## 📈 Power BI Reports
-
-### 📌 Expense Dashboard
-- Overview of organizational expenses by category, department, and month.
-
-### 📌 Orange Juice Sales Performance
-- Sales performance by region, product category, and sales channel.
-
-### 📌 Sales Analysis Dashboard
-- Interactive dashboard showing sales KPIs, trends, and region-wise insights.
-
-### 📌 Financial Report
-- Visual summary of income, expenses, and profit over time.
+### 3. `Time_Series_Forecasting_project.ipynb`
+- **Objective**: Forecast future values using historical data (ARIMA, Prophet).
+- **Tech Stack**: Python, statsmodels, Prophet, matplotlib
+- **Outcome**: Accurate forecasting model for monthly sales planning.
 
 ---
 
-## 🛠 Tools & Technologies
+## 📈 Power BI Reports (`/powerbi_reports`)
 
-- **Languages**: Python
-- **Libraries**: Pandas, Matplotlib, Seaborn, Scikit-learn, Statsmodels
-- **BI Tool**: Power BI
-- **Other**: Jupyter Notebooks
+### 1. `Expense Dashboard.pbix`
+- **Focus**: Tracks monthly and category-wise personal or departmental expenses.
+- **Key Features**: Interactive filters, KPIs, monthly trend lines.
+
+### 2. `Orange Juice Sales Performance.pbix`
+- **Focus**: Sales performance by region and product for an FMCG brand.
+- **Key Features**: Regional breakdown, top products, profit trends.
+
+### 3. `Sales Analysis Dashboard.pbix`
+- **Focus**: Company-wide sales KPIs and trend analysis.
+- **Key Features**: Dynamic visuals, year-over-year growth, product-level insights.
+
+### 4. `Supply Chain Report.pbix`
+- **Focus**: Monitor supply chain metrics such as delivery times, order fulfillment, and delays.
+- **Key Features**: On-time delivery %, cost per shipment, supplier performance.
+
+### 5. `financial report.pbix`
+- **Focus**: Financial overview including revenue, profit margins, and expense breakdowns.
+- **Key Features**: Profit & loss, year-end summaries, cash flow metrics.
 
 ---
 
-## 🔗 How to View
+## 📊 Tableau Dashboards (`/Tableau-Dashboards`)
 
-- **Notebooks**: Open `.ipynb` files using Jupyter or in GitHub preview.
-- **Power BI Reports**: Open `.pbix` files using Power BI Desktop.
+### 1. `Netflix Dashboard.twbx`
+- **Focus**: Analyzes Netflix titles by genre, country, release year, and type.
+- **Key Features**: Interactive filters, time trends, content type distribution.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Data Visualization**: Power BI, Tableau, Matplotlib, Plotly, Seaborn
+- **Languages**: Python, SQL
+- **Libraries**: pandas, NumPy, scikit-learn, Prophet, statsmodels
+- **Skills**: Data cleaning, EDA, ML, forecasting, dashboard design
 
 ---
 
 ## 📬 Contact
 
-Feel free to connect or reach out if you're interested in collaborating or discussing these projects!
+Feel free to connect with me via [LinkedIn](https://linkedin.com) or email me at `your.email@example.com`.
 
+---
+
+⭐ *Thank you for visiting my portfolio!*
